@@ -1,5 +1,11 @@
 ---
 title: 『KING OF PRISM』公式ウェブサイトのRSSフィードを作った
+tags:
+  - kinpri
+  - rss
+  - twitter
+aliases:
+  - ../kinpri-official-website-rss
 ---
  
 ## まえがき
@@ -14,11 +20,11 @@ Twitter以外で公式の情報を得られる場所は、まだキンプリの�
 
 たとえば、[Feedly](https://feedly.com/)でRSSフィードを購読すると、こんな感じで各ページの更新が確認できる。
 
-![NewsページのRSSフィードをFeedlyアプリ上で表示したスクリーンショット](images/kinpri-official-website-rss/feedly-news.png)
+![NewsページのRSSフィードをFeedlyアプリ上で表示したスクリーンショット](feedly-news.png)
 
-![MovieページのRSSフィードをFeedlyアプリ上で表示したスクリーンショット](images/kinpri-official-website-rss/feedly-movie.png)
+![MovieページのRSSフィードをFeedlyアプリ上で表示したスクリーンショット](feedly-movie.png)
 
-![NoveltyページのRSSフィードをFeedlyアプリ上で表示したスクリーンショット](images/kinpri-official-website-rss/feedly-novelty.png)
+![NoveltyページのRSSフィードをFeedlyアプリ上で表示したスクリーンショット](``feedly-novelty.png)
 
 ## RSSフィード（Atom）一覧
 
