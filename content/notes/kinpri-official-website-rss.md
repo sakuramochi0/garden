@@ -24,7 +24,7 @@ Twitter以外で公式の情報を得られる場所は、まだキンプリの�
 
 ![MovieページのRSSフィードをFeedlyアプリ上で表示したスクリーンショット](feedly-movie.png)
 
-![NoveltyページのRSSフィードをFeedlyアプリ上で表示したスクリーンショット](``feedly-novelty.png)
+![NoveltyページのRSSフィードをFeedlyアプリ上で表示したスクリーンショット](feedly-novelty.png)
 
 ## RSSフィード（Atom）一覧
 
