@@ -2,7 +2,7 @@
 title: Welcome!
 ---
 
-ホームページだよ！
+ホームページだよ！✨
 
 ![[icon-sakuramochi-leo-kun-mochi-rainbow.jpg|ピコック先生が虹を渡っているようすを眺めているレオくんもち|400x400]]
 
