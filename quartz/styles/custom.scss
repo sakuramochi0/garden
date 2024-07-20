@@ -16,7 +16,7 @@ a {
         text-decoration: underline;
 
         &.tag-link {
-            padding-inline: .5rem;
+            padding: .125rem .4rem;
             text-decoration: none;
 
             &:hover {
@@ -27,5 +27,9 @@ a {
 }
 
 .tags {
-    gap: .2rem;
+    gap: .25rem;
+}
+
+footer ul {
+    gap: .5rem;
 }
