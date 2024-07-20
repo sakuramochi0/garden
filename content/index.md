@@ -2,9 +2,15 @@
 title: Welcome!
 ---
 
-ホームページだよ！（種まき中です 🌱）
+ホームページだよ！
+                           
+## メインコンテンツ
+- [記事フォルダ](notes) - 文章がメインのページ
+- [写真フォルダ](photos) - 写真がメインのページ
 
-🚧
-                  
-## 記事リスト
-- [『KING OF PRISM』公式ウェブサイトのRSSフィードを作った](kinpri-official-website-rss)
+## リンク
+
+- [ウェブサイト: skrm.ch
+  ](https://skrm.ch
+  )
+- [Mastodonアカウント @sakuramochi0@mastodon.social](https://main.elk.zone/mastodon.social/@sakuramochi0)
