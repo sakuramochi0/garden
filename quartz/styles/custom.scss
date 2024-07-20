@@ -12,9 +12,11 @@ a {
     text-decoration: underline;
 
     &.internal {
+        padding: .125rem .4rem;
         text-decoration: underline;
 
         &.tag-link {
+            padding-inline: .5rem;
             text-decoration: none;
 
             &:hover {
@@ -22,4 +24,8 @@ a {
             }
         }
     }
+}
+
+.tags {
+    gap: .2rem;
 }
