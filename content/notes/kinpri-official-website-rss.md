@@ -6,6 +6,7 @@ tags:
   - twitter
 aliases:
   - ../kinpri-official-website-rss
+date: 2024-07-20
 ---
  
 ## まえがき
