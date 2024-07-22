@@ -8,13 +8,13 @@ export function byDateAndAlphabetical(
   cfg: GlobalConfiguration,
 ): (f1: QuartzPluginData, f2: QuartzPluginData) => number {
   return (f1, f2) => {
-    if (f1.dates && f2.dates) {
+    if (f1.dates?.modified && f2.dates?.modified) {
       // sort descending
-      return getDate(cfg, f2)!.getTime() - getDate(cfg, f1)!.getTime()
-    } else if (f1.dates && !f2.dates) {
+      return getDate(cfg, f2)!.modified.getTime() - getDate(cfg, f1)!.modified.getTime()
+    } else if (f1.dates?.modified && !f2.dates?.modified) {
       // prioritize files with dates
       return -1
-    } else if (!f1.dates && f2.dates) {
+    } else if (!f1.dates?.modified && f2.dates?.modified) {
       return 1
     }
 
@@ -46,7 +46,7 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit }: Pr
             <div class="section">
               {page.dates && (
                 <p class="meta">
-                  <Date date={getDate(cfg, page)!} locale={cfg.locale} />
+                  <Date date={getDate(cfg, page)!.modified} locale={cfg.locale} />
                 </p>
               )}
               <div class="desc">
