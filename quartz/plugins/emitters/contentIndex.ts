@@ -76,6 +76,7 @@ function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, limit?: nu
     .join("")
 
   return `<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="/static/pretty-feed-v3.xsl" type="text/xsl"?>
 <rss version="2.0">
     <channel>
       <title>${escapeHTML(cfg.pageTitle)}</title>
