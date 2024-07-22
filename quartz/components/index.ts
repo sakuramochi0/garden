@@ -20,6 +20,8 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 
+import RSSFeed from "./RSSFeed"
+
 export {
   ArticleTitle,
   Content,
@@ -42,4 +44,6 @@ export {
   RecentNotes,
   NotFound,
   Breadcrumbs,
+
+  RSSFeed,
 }
