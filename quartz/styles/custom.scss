@@ -26,6 +26,25 @@ a {
     }
 }
 
+.search {
+    max-width: 0;
+
+    & > #search-icon {
+        background-color: initial;
+
+        & > p,
+        & > div {
+            display: none;
+        }
+
+        svg {
+            height: 2rem;
+            margin: 0;
+            padding-inline: .5rem;
+        }
+    }
+}
+
 .tags {
     gap: .25rem;
 }
