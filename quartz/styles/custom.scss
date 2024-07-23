@@ -49,6 +49,29 @@ a {
     gap: .25rem;
 }
 
+    .toc {
+        background-color: var(--lightgray);
+        padding: .5rem 1rem;
+        border: solid 1px var(--highlight);
+
+        #toc-content {
+            ul > li > a {
+                opacity: .75;
+            }
+
+            ul.overflow > li:last-of-type,
+            ol.overflow > li:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    ul.overflow:after,
+    ol.overflow:after {
+        display: none;
+        height: 0;
+    }
+
 footer ul {
     gap: .5rem;
 }
