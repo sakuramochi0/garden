@@ -2,15 +2,17 @@
 // modules are automatically deferred and we don't want that to happen for critical beforeDOMLoads
 // see: https://v8.dev/features/modules#defer
 import styles from "./styles/rss-feed.scss"
-import { QuartzComponent, QuartzComponentConstructor } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { i18n } from "../i18n"
 
-const RSSFeed: QuartzComponent = () => {
+const RSSFeed: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
   return (
     <div class="rss-feed">
       <a href="/index.xml">
         <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
              id="RSSicon"
              viewBox="0 0 256 256">
+          <title>{i18n(cfg.locale).components.rssFeed.title}</title>
           <defs>
             <linearGradient x1="0.085" y1="0.085" x2="0.915" y2="0.915" id="RSSg">
               <stop offset="0.0" stop-color="#E3702D"></stop>

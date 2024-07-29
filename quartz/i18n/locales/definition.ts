@@ -52,6 +52,9 @@ export interface Translation {
       title: string
       searchBarPlaceholder: string
     }
+    rssFeed: {
+      title: string
+    }
     tableOfContents: {
       title: string
     }
