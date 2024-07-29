@@ -50,6 +50,9 @@ export default {
       title: "検索",
       searchBarPlaceholder: "検索ワードを入力",
     },
+    rssFeed: {
+      title: 'RSSフィード',
+    },
     tableOfContents: {
       title: "目次",
     },
