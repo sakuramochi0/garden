@@ -12,6 +12,11 @@ body {
     background-size: 15rem;
 }
 
+p {
+    color: var(--dark);
+    fill: var(--dark);
+}
+
 .page-title a {
     text-decoration: none;
 
