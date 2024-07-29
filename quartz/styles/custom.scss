@@ -1,7 +1,12 @@
 @use "./base.scss";
 
 body {
-    background-image: linear-gradient(0deg, rgba(255, 246, 246, 0.9), rgba(255, 246, 246, 0.9)), url("/static/google-noto-emoji-rainbow-rorate-180.svg");
+    background-image:
+            linear-gradient(
+                    0deg,
+                    rgb(from var(--light) r g b / 0.9),
+                    rgb(from var(--light) r g b/ 0.9)),
+            url("/static/google-noto-emoji-rainbow-rorate-180.svg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 15rem;
