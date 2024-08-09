@@ -3,7 +3,6 @@ title: シャインのプリズムショーから受けた暴力と心の傷
 tags:
   - kinpri
   - shine
-  - 
   - twitter
 date: 2024-06-24
 updated: 2024-07-28
