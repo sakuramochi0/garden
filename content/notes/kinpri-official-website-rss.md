@@ -7,6 +7,7 @@ tags:
 aliases:
   - ../kinpri-official-website-rss
 date: 2024-07-20
+updated: 2024-08-09
 ---
  
 ## まえがき
@@ -36,6 +37,7 @@ Twitter以外で公式の情報を得られる場所は、まだキンプリの�
 - Discographyページ: https://rss-bridge.org/bridge01/?action=display&bridge=XPathBridge&url=https%3A%2F%2Fkinpri.com%2Fdiscography%2F&item=%2F%2Fli%5B%40class%3D%22p-disco__list-item%22%5D&title=.&content=&raw_content=on&uri=&author=&timestamp=&enclosures=substring-after%28substring-before%28.%2F%2Fdiv%5B%40class%3D%22p-disco__list-thumb-img%22%5D%2F%40style%2C+%22%29%22%29%2C+%22%28%22%29&categories=&format=Atom
 - Noveltyページ: https://rss-bridge.org/bridge01/?action=display&bridge=XPathBridge&url=https%3A%2F%2Fkinpri.com%2Fnovelty%2F&item=%2F%2Fdiv%5Bstarts-with%28%40id%2C+%22novelty_%22%29%5D&title=.%2F%2Fdiv%5B%40class%3D%22p-novelty__box-head-text%22%5D&content=.&raw_content=on&uri=&author=&timestamp=&enclosures=&categories=&format=Atom
 - Movieページ: https://rss-bridge.org/bridge01/?action=display&bridge=XPathBridge&url=https%3A%2F%2Fkinpri.com%2Fmovie%2F&item=%2F%2Fli%5B%40class%3D%22p-movie__list-item%22%5D&title=.&content=&raw_content=on&uri=&author=&timestamp=&enclosures=substring-after%28substring-before%28.%2F%2Fdiv%5B%40class%3D%22p-movie__list-thumb-img%22%5D%2F%40style%2C+%22%29%22%29%2C+%22%28%22%29&categories=&format=Atom
+- Goodsページ: https://rss-bridge.org/bridge01/?action=display&bridge=XPathBridge&url=https%3A%2F%2Fkinpri.com%2Fgoods%2F&item=%2F%2F*%5B%40class%3D%22p-goods_detail__list-item%22%5D&title=.%2F%2Fdiv%5B%40class%3D%22goods_modal__detail-ttl%22%5D&content=.%2F%2Fdiv%5B%40class%3D%22goods_modal__detail-text%22%5D&raw_content=on&uri=&author=&timestamp=&enclosures=substring-after%28substring-before%28.%2F%2Fdiv%5B%40class%3D%22goods_modal__mainthumb-item+js-goods_img__thumb%22%5D%2F%40style%2C%2B%22%29%22%29%2C%2B%22%28%22%29&categories=&format=Atom
 
 ちなみに、一番最後の`format=Atom`を`format=html`に変更すると、RSS Bridge上でプレビューが見れる。
 
