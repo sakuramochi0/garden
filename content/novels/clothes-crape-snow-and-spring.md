@@ -35,7 +35,7 @@ by さくらもち
 夕方の竹下通りは人通りが多い。はぐれないように、ユキ様の手を取って目的地を目指す。
 
 <div style="text-align: center">
-  <img alt="momo emoji delimiter" width="32" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdI0tFPcqs5OamZOyokztS_VKDT2i42qPzSWRFh-Vc_yxLpixQiTXX3JM8WGOtPGx_16Ohnv7Id0WNnJpg8aPwYQvujbKAdY8Gb6hWv9D8kp9c220Dl16fTzjTs_rWTb1DkF2teVZL0b3tZ2F51zAOzVA?key=rB2RzmB9asna5LVKJrU5tg">
+  <img alt="momo emoji delimiter" width="24" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdI0tFPcqs5OamZOyokztS_VKDT2i42qPzSWRFh-Vc_yxLpixQiTXX3JM8WGOtPGx_16Ohnv7Id0WNnJpg8aPwYQvujbKAdY8Gb6hWv9D8kp9c220Dl16fTzjTs_rWTb1DkF2teVZL0b3tZ2F51zAOzVA?key=rB2RzmB9asna5LVKJrU5tg">
 </div>
 
 「あ、ここです！」
@@ -91,7 +91,7 @@ by さくらもち
 ああ、この気持ち、このままにしてはいられない……。
 
 <div style="text-align: center">
-  <img alt="star emoji delimiter" width="32" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcAEkrBQlY1aJS54LfcIH6TtPUkJILT6zZsJTjZDMNr2PUowIpQRS05I2pb0NgjftGV27rPIWbFRCODjDFBYlY5ZBHRjLD_-JOPIh6zFLL17Mu88Pv5TEF6cKCULyE46OWW3tzbKVTHxBy5oZVcOWA-hQ?key=rB2RzmB9asna5LVKJrU5tg">
+  <img alt="star emoji delimiter" width="24" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcAEkrBQlY1aJS54LfcIH6TtPUkJILT6zZsJTjZDMNr2PUowIpQRS05I2pb0NgjftGV27rPIWbFRCODjDFBYlY5ZBHRjLD_-JOPIh6zFLL17Mu88Pv5TEF6cKCULyE46OWW3tzbKVTHxBy5oZVcOWA-hQ?key=rB2RzmB9asna5LVKJrU5tg">
 </div>
 
 通りはすっかり暗くなって、空には一番星が光って見えた。  
@@ -111,7 +111,7 @@ by さくらもち
 「裏原宿、『うらはら』って呼ばれているそうですよ。何だか、ドラマの中の世界に入っちゃったみたいですね」
 
 <div style="text-align: center">
-  <img alt="sakura emoji delimiter" width="32" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeE06V7JIx3gtpUK2U4C8w8Zz1aLyjnkXFCmTVrE9bu8f6Pr2ylooPxMgKIOqST3-cwnIIUGlRMOsSD30prhm1M2Ao8mxXgJS9KQUbfQYKTvBEKUfJ1q64h_Cj47v-FPagC7DINQw5ScjKP2EFu9xnaYA?key=rB2RzmB9asna5LVKJrU5tg">
+  <img alt="sakura emoji delimiter" width="24" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeE06V7JIx3gtpUK2U4C8w8Zz1aLyjnkXFCmTVrE9bu8f6Pr2ylooPxMgKIOqST3-cwnIIUGlRMOsSD30prhm1M2Ao8mxXgJS9KQUbfQYKTvBEKUfJ1q64h_Cj47v-FPagC7DINQw5ScjKP2EFu9xnaYA?key=rB2RzmB9asna5LVKJrU5tg">
 </div>
 
 少し歩くと、障子を通した柔らかな光が漏れる、小さな和雑貨屋さんが見えてきた。お店の前で足を止める。
@@ -173,7 +173,7 @@ by さくらもち
 笑顔あふれる桃色の髪に、透き通った桜がキラリと光った。
 
 <div style="text-align: center">
-  <img alt="" width="32" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcUHAuv9b8e9zGxx6yqZyII0p7tUtOoNaMge9QS3PA-kAH7_erNfqRifzWPn_g3ulI5egCgZBtUtdonEWDu0IrnE4iY4FBs03a99kZ2jT2eKtKi-tpwaWf3NWfabtTWBVOoLEpQmZLWUeeDYUz2VC998g?key=rB2RzmB9asna5LVKJrU5tg">
+  <img alt="" width="24" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcUHAuv9b8e9zGxx6yqZyII0p7tUtOoNaMge9QS3PA-kAH7_erNfqRifzWPn_g3ulI5egCgZBtUtdonEWDu0IrnE4iY4FBs03a99kZ2jT2eKtKi-tpwaWf3NWfabtTWBVOoLEpQmZLWUeeDYUz2VC998g?key=rB2RzmB9asna5LVKJrU5tg">
 </div>
 
 はるか昔から、絶えることなく続いてきた人の営み。胸から溢れるハピなるな気持ちをどうしようもなくて、人は形にすることを求めてしまう。それが gift。これからも、人が誰かとふれあい続ける限り、ずっと gift は生まれ続け、輪廻を超えて、受け継がれていくのだ。■
