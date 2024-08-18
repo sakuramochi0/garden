@@ -10,4 +10,5 @@ date: 2024-07-10
 ## メインコンテンツ
 - [📝 notes](notes) - 書いた文章のストック
 - [📷 photos](photos) - 写真アルバム
+- [📗 novels](novels) - 書いたお話
 - [🐘 posts](posts) - Mastodonの投稿のアーカイブ
