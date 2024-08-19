@@ -1,5 +1,5 @@
 ---
-title: 『KING OF PRISM』公式ウェブサイトのRSSフィードを作った
+title: 『KING OF PRISM』公式ウェブサイトのRSSフィードを作ったよ
 tags:
   - kinpri
   - rss
