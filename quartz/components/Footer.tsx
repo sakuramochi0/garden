@@ -22,9 +22,11 @@ export default ((opts?: Options) => {
         </ul>
         <p>
           Built with{" "}
-          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>{" "}
+          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>{' '}
           / skrm.ch is using {' '}
-          <a href="https://developers.google.com/analytics">Google Analytics</a>
+          <a href="https://developers.google.com/analytics">Google Analytics</a>{' '}
+          / All pages are licenced under {' '}
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">CC BY-SA 4.0</a>+
         </p>
       </footer>
     )
