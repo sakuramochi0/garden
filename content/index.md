@@ -3,11 +3,17 @@ title: Welcome!
 date: 2024-07-10
 ---
 
-ホームページだよ！✨
+さくらもちガーデンのトップページだよ！✨
 
-![[icon-sakuramochi-leo-kun-mochi-rainbow.jpg|ピコック先生が虹を渡っているようすを眺めているレオくんもち|400x400]]
+<figure>
+<picture>
+<img src="icon-sakuramochi-leo-kun-mochi-rainbow.jpg" width="400" alt="">
+</picture>
+<figcaption>ピコック先生が虹を渡っているようすを眺めているレオくんもち</figcaption>
+</figure>
 
 ## メインコンテンツ
+
 [📝 notes](notes) - 書いた文章のストック
 
 [📷 photos](photos) - 写真アルバム
@@ -15,3 +21,5 @@ date: 2024-07-10
 [📗 novels](novels) - 書いたお話
 
 [🐘 posts](posts) - Mastodonの投稿のアーカイブ
+
+[🏡 ホームページに戻る](https://skrm.ch/)
