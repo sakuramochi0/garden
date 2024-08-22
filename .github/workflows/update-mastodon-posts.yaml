@@ -31,6 +31,10 @@ jobs:
         run: pipx install sqlite-utils
         env:
           PIPX_DEFAULT_PYTHON: python
+      - name: Install mastodon-to-sqlite
+        run: pipx install mastodon-to-sqlite
+        env:
+          PIPX_DEFAULT_PYTHON: python
       - name: Update Mastodon posts DB
         run: fish export-posts-to-content.fish
         working-directory: mastodon/
