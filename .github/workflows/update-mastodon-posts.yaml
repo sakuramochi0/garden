@@ -23,6 +23,14 @@ jobs:
           fetch-depth: 0 # Fetch all history for git info
       - name: Install fish shell
         uses: fish-shop/install-fish-shell@v1
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+      - name: Install sqlite-utils
+        run: pipx install sqlite-utils
+        env:
+          PIPX_DEFAULT_PYTHON: python
       - name: Update Mastodon posts DB
         run: fish export-posts-to-content.fish
         working-directory: mastodon/
