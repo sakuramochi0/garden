@@ -1,5 +1,5 @@
 ---
-title: Pixivアカウントの削除
+title: Pixivアカウントを削除したときに思ったこと
 tags:
 - pixiv
 ---
