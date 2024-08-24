@@ -3,7 +3,7 @@ title: Welcome!
 date: 2024-07-10
 ---
 
-さくらもちガーデンのトップページだよ！✨
+トップページだよ！✨
 
 <figure>
 <picture>
