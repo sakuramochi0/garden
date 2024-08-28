@@ -14,12 +14,12 @@ date: 2024-07-10
 
 ## メインコンテンツ
 
-[📝 notes](notes) - 書いた文章のストック
+[📝 notes](notes/) - 書いた文章のストック
 
-[📷 photos](photos) - 写真アルバム
+[📷 photos](photos/) - 写真アルバム
 
-[📗 novels](novels) - 書いたお話
+[📗 novels](novels/) - 二次創作などのおはなし置き場
 
-[🐘 posts](posts) - Mastodonの投稿のアーカイブ
+[🐘 posts](posts/) - Mastodonの投稿のアーカイブ
 
 [🏡 ホームページに戻る](https://skrm.ch/)
