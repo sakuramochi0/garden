@@ -7,7 +7,7 @@ tags:
 date: 2024-07-20
 ---
 
-投稿をthreadで書いてたらthreadが増え続けて長くなってしまったから、久しぶりにここに書いてみる。たくさんの出来事があっていろいろな気持ちがあったのに、ここに書かなすぎてるね…。前回の更新から2ヶ月以上経ってるし。その間、代わりにずっとMastodonアカウントの[@sakuramochi0@mastodon.social](https://main.elk.zone/mastodon.social/@sakuramochi0)にいろいろなことを書いて、Blueskyアカウントに同期してた。
+投稿をthreadで書いてたらthreadが増え続けて長くなってしまったから、あまりまとまりがないけど久しぶりにここに書いてみる。前回の更新から2ヶ月以上経ってるけど、たくさんの出来事があっていろいろな気持ちがあったのに、ここに書かなすぎてるね…。その間、代わりにずっとMastodonアカウントの[@sakuramochi0@mastodon.social](https://main.elk.zone/mastodon.social/@sakuramochi0)にいろいろなことを書いて、Blueskyアカウントに同期してた。
 
 ---
 
