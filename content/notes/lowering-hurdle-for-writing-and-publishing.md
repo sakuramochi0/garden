@@ -1,8 +1,9 @@
 ---
 title: さくらもちガーデンで書くためのハードルを低くする試み
 tags:
-  - garden
+  - digital-garden
   - obsidian
+  - dev
 date: 2025-01-05
 ---
 ## 溜まっていく下書き
