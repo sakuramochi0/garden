@@ -48,6 +48,11 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         segments.push(displayedTime)
       }
 
+      const githubURL = `https://github.com/sakuramochi0/garden/commits/v4/${fileData.filePath}`
+      segments.push((
+        <a href={githubURL} target="_blank">⌛ 編集履歴</a>
+      ))
+
       const segmentsElements = segments.map((segment) => <span>{segment}</span>)
 
       return (
