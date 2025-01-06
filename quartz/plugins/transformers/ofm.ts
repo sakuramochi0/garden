@@ -627,6 +627,10 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
                     frameborder: 0,
                     width: "600px",
                     height: "350px",
+                    style: {
+                      // @ts-ignore
+                      width: 'min(600px, 100%)',
+                    },
                     src: playlistId
                       ? `https://www.youtube.com/embed/${videoId}?list=${playlistId}`
                       : `https://www.youtube.com/embed/${videoId}`,
@@ -640,6 +644,10 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
                     frameborder: 0,
                     width: "600px",
                     height: "350px",
+                    style: {
+                      // @ts-ignore
+                      width: 'min(600px, 100%)',
+                    },
                     src: `https://www.youtube.com/embed/videoseries?list=${playlistId}`,
                   }
                 }
