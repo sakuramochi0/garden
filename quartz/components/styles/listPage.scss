@@ -11,10 +11,10 @@ li.section-li {
 
   & > .section {
     display: grid;
-    grid-template-columns: fit-content(8em) 3fr 1fr;
+    grid-template-columns: fit-content(10em) 1fr;
 
     @media all and (max-width: $mobileBreakpoint) {
-      & > .tags {
+      & > .desc > .tags {
         display: none;
       }
     }
