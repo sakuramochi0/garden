@@ -4,6 +4,7 @@ tags:
   - rss
   - ポールプリンセス!!
 date: 2024-11-05
+state: public
 ---
 
 ## ニュースページのRSSフィード

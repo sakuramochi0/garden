@@ -3,6 +3,7 @@ title: Pixivアカウントを削除したときに思ったこと
 tags:
 - pixiv
 date: 2024-08-24
+state: public
 ---
 
 ## アカウント削除の経緯と理由
