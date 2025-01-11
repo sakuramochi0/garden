@@ -1,7 +1,7 @@
 ---
 title: 「編集履歴」リンクの追加
 tags:
-  - digital-garden
+  - sakuramochi-garden
   - dev
   - github
 date: 2025-01-06

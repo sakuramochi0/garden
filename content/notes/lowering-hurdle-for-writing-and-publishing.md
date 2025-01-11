@@ -1,7 +1,7 @@
 ---
 title: さくらもちガーデンで書くためのハードルを低くする試み
 tags:
-  - digital-garden
+  - sakuramochi-garden
   - obsidian
   - dev
 date: 2025-01-05
