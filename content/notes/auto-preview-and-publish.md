@@ -2,6 +2,7 @@
 title: 記事を自動的にプレビュー・公開できるようにする
 tags:
   - dev
+  - sakuramochi-garden
 date: 2025-01-11
 state: public
 ---
@@ -29,7 +30,7 @@ state: public
 
 というわけで、[自動更新のスクリプトを書いて](https://github.com/sakuramochi0/garden/commit/02bbb55aeeb00a80f366c4728cfc62cad9f23224)、自動的に実行するようにした。これで、記事を書いて、`state: draft`→`state: public`って書き換えるだけで自動的に公開できるようになったはず…！😃
 
-## 1週間経った
+## 1週間経ってる
 
 気づいたらまた1週間経ってて、記事を書く仕組みを作ってその記事を書いてるだけで、本来書きたいことが書けてない…。
 
