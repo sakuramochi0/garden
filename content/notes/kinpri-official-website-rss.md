@@ -8,6 +8,7 @@ aliases:
   - ../kinpri-official-website-rss
 date: 2024-07-20
 updated: 2024-08-09
+state: public
 ---
  
 ## まえがき

@@ -5,6 +5,7 @@ tags:
   - obsidian
   - dev
 date: 2025-01-05
+state: public
 ---
 ## 溜まっていく下書き
 

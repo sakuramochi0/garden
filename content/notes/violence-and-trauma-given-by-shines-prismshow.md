@@ -6,6 +6,7 @@ tags:
   - twitter
 date: 2024-06-24
 updated: 2024-07-28
+state: public
 ---
 
 > ⚠注意: 自殺や自傷行為に関する表現が含まれています。
