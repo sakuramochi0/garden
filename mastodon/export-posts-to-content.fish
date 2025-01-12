@@ -13,7 +13,7 @@ sqlite-utils query db.sqlite 'select * from statuses' | jq -c '.[]' | while read
 
    mkdir -p $basedir
 
-   echo $post | jq -r '
+   echo $post | jq -j '
    "---\n" +
    "created: " + .created_at + "\n" +
    "updated: " + .created_at + "\n" +
@@ -21,5 +21,6 @@ sqlite-utils query db.sqlite 'select * from statuses' | jq -c '.[]' | while read
    "---\n\n" +
    .content + "\n\n" +
    "&mdash; " + (.created_at | strptime("%Y-%m-%dT%H:%M:%S %Z") | mktime | strflocaltime("%Y-%m-%d %H:%M:%S %Z")) + "\n\n" +
-   "Original URL: "'$url  > $basedir$filename
+   "Original URL: "' > $basedir$filename
+   echo $url >> $basedir$filename
 end
