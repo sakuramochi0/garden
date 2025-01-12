@@ -1,7 +1,7 @@
 #!/usr/bin/env fish
 # export all posts from db.sqlite to content/posts directory as Markdown files
 
-sqlite-utils query db.sqlite 'select * from statuses order by created_at' | jq -c '.[]' | while read post
+sqlite-utils query db.sqlite3 'select * from statuses order by created_at' | jq -c '.[]' | while read post
    set basedir ../content/posts/@sakuramochi0@mastodon-social/
    set filename (echo $post | jq -r '.url | split("/")[-1]').md
 
