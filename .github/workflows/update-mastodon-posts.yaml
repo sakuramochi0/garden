@@ -32,7 +32,7 @@ jobs:
         env:
           PIPX_DEFAULT_PYTHON: python
       - name: Install mastodon-to-sqlite
-        run: pipx install mastodon-to-sqlite
+        run: pipx install git+https://github.com/myles/mastodon-to-sqlite
         env:
           PIPX_DEFAULT_PYTHON: python
       - name: Create Mastodon auth.json
