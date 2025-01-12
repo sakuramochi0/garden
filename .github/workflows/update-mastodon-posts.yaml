@@ -35,11 +35,11 @@ jobs:
         run: echo '${{ secrets.MASTODON_AUTH_JSON }}' > auth.json
         working-directory: mastodon/
       - name: Update Mastodon posts DB
-        run: fish export-posts-to-content.fish
         working-directory: mastodon/
-      - name: Export Mastodon posts
         run: bash update-statuses.bash
+      - name: Export Mastodon posts
         working-directory: mastodon/
+        run: fish export-posts-to-content.fish
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
