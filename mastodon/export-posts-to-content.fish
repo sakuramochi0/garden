@@ -3,7 +3,7 @@
 
 sqlite-utils query db.sqlite 'select * from statuses' | jq -c '.[]' | while read post
    set basedir ../content/posts/@sakuramochi0@mastodon-social/
-   set filename (echo $post | jq -r '.id').md
+   set filename (echo $post | jq -r '.url | split("/")[-1]').md
 
    mkdir -p $basedir
 
