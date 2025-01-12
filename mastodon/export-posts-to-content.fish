@@ -21,5 +21,5 @@ sqlite-utils query db.sqlite 'select * from statuses' | jq -c '.[]' | while read
    "---\n\n" +
    .content + "\n\n" +
    "&mdash; " + (.created_at | strptime("%Y-%m-%dT%H:%M:%S %Z") | mktime | strflocaltime("%Y-%m-%d %H:%M:%S %Z")) + "\n\n" +
-   "Original URL: " + (.url)' > $basedir$filename
+   "Original URL: "'$url  > $basedir$filename
 end
