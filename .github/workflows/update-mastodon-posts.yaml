@@ -1,18 +1,16 @@
 name: Update Mastodon posts data
 
 on:
-#  schedule:
-#    - cron: '55 * * * *'
+  schedule:
+    - cron: '55 * * * *'
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: "posts"
+  cancel-in-progress: true
 
 jobs:
   update-posts:
