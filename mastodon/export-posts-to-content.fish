@@ -3,7 +3,8 @@
 
 sqlite-utils query db.sqlite 'select * from statuses' | jq -c '.[]' | while read post
    set basedir ../content/posts/@sakuramochi0@mastodon-social/
-   set filename (echo $post | jq -r '.url | split("/")[-1]').md
+   set url (echo $post | jq -r '"https://mastodon.social/@sakuramochi0/" + (.id | tostring)')
+   set filename (echo $url | cut -d '/' -f 5).md
 
    if [ $filename = "activity.md" ]
      echo skip $filename
