@@ -40,8 +40,10 @@ jobs:
       - name: Export Mastodon posts
         working-directory: mastodon/
         run: fish export-posts-to-content.fish
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'feat: update mastodon posts'
-          branch: ${{ github.event.repository.default_branch }}
+      - name: commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/posts/
+          git diff --quiet --staged || (git add . && git commit -m 'feat: update mastodon posts')
+          git push
