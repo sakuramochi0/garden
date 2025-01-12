@@ -1,26 +1,23 @@
 #!/usr/bin/env fish
 # export all posts from db.sqlite to content/posts directory as Markdown files
 
-sqlite-utils query db.sqlite 'select * from statuses' | jq -c '.[]' | while read post
+sqlite-utils query db.sqlite 'select * from statuses order by created_at' | jq -c '.[]' | while read post
    set basedir ../content/posts/@sakuramochi0@mastodon-social/
-   set url (echo $post | jq -r '"https://mastodon.social/@sakuramochi0/" + (.id | tostring)')
-   set filename (echo $url | cut -d '/' -f 5).md
+   set filename (echo $post | jq -r '.url | split("/")[-1]').md
 
-   if [ $filename = "activity.md" ]
+   if [ "$filename" = "activity.md" ]
      echo skip $filename
      continue
    end
 
    mkdir -p $basedir
 
-   echo $post | jq -j '
-   "---\n" +
+   echo $post | jq -r '   "---\n" +
    "created: " + .created_at + "\n" +
    "updated: " + .created_at + "\n" +
    "title: \"" + (.content | sub("<[^>]*>"; ""; "g") | sub("\\\\\\\\"; "&#92;"; "g")[:40]) + "[...]\"\n" +
    "---\n\n" +
    .content + "\n\n" +
    "&mdash; " + (.created_at | strptime("%Y-%m-%dT%H:%M:%S %Z") | mktime | strflocaltime("%Y-%m-%d %H:%M:%S %Z")) + "\n\n" +
-   "Original URL: "' > $basedir$filename
-   echo $url >> $basedir$filename
+   "Original URL: " + .url' > $basedir$filename
 end
