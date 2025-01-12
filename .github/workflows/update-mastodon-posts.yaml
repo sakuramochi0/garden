@@ -45,4 +45,5 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
+          commit_message: 'feat: update mastodon posts'
           branch: ${{ github.event.repository.default_branch }}
