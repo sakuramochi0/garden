@@ -36,7 +36,7 @@ jobs:
         env:
           PIPX_DEFAULT_PYTHON: python
       - name: Create Mastodon auth.json
-        run: echo ${{ secrets.MASTODON_AUTH_JSON }} > auth.json
+        run: echo '${{ secrets.MASTODON_AUTH_JSON }}' > auth.json
         working-directory: mastodon/
       - name: Update Mastodon posts DB
         run: fish export-posts-to-content.fish
