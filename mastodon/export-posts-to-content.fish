@@ -10,10 +10,11 @@ sqlite-utils query db.sqlite3 'select * from statuses order by created_at' | jq 
      continue
    end
 
+   rm -rf $basedir
    mkdir -p $basedir
 
    echo $post | jq -r '   "---\n" +
-   "created: " + .created_at + "\n" +
+   "date: " + .created_at + "\n" +
    "updated: " + .created_at + "\n" +
    "title: \"" + (.content | sub("<[^>]*>"; ""; "g") | sub("\\\\\\\\"; "&#92;"; "g")[:40]) + "[...]\"\n" +
    "---\n\n" +
