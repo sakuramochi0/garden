@@ -1,17 +1,17 @@
 #!/usr/bin/env fish
 # export all posts from db.sqlite to content/posts directory as Markdown files
 
+set basedir ../content/posts/@sakuramochi0@mastodon-social/
+rm -rf $basedir
+mkdir -p $basedir
+
 sqlite-utils query db.sqlite3 'select * from statuses order by created_at' | jq -c '.[]' | while read post
-   set basedir ../content/posts/@sakuramochi0@mastodon-social/
    set filename (echo $post | jq -r '.url | split("/")[-1]').md
 
    if [ "$filename" = "activity.md" ]
      echo skip $filename
      continue
    end
-
-   rm -rf $basedir
-   mkdir -p $basedir
 
    echo $post | jq -r '   "---\n" +
    "date: " + .created_at + "\n" +
