@@ -36,6 +36,7 @@ async function main() {
   console.log(execSync(`git add ${commitFiles.join(" ")}`).toString())
   console.log(execSync(`git commit -m '${commitMessage}'`).toString())
   console.log(execSync(`git show @ --name-only`).toString())
+  console.log(execSync(`git pull --autostash --rebase`).toString())
   console.log(execSync(`git push`).toString())
 }
 
