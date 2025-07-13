@@ -10,7 +10,7 @@ import { read } from "to-vfile"
 
 
 async function main() {
-  const paths = await globby("content/notes/*.md")
+  const paths = await globby("content/notes/*.md").filter(path => !path.includes('sync-conflict-'))
 
   const previewOrPublic = []
   for await (const path of paths) {
