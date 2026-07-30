@@ -23,8 +23,8 @@ export default ((opts?: Options) => {
         <p>
           Built with{" "}
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>{' '}
-          / skrm.ch is using {' '}
-          <a href="https://developers.google.com/analytics">Google Analytics</a>{' '}
+          / garden.skrm.ch is using {' '}
+          analytics tag which only send data to my servers to protect visitor's privacy.{' '}
           / All pages are licenced under {' '}
           <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">CC BY-SA 4.0</a>+
         </p>
