@@ -46,6 +46,7 @@ export default (() => {
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
+        <script defer src="https://analytics.skrm.ch/script.js" data-website-id="6f666fa1-5b87-4e43-a83f-bf57b52c639f"></script>
       </head>
     )
   }
