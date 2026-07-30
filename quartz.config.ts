@@ -11,10 +11,6 @@ const config: QuartzConfig = {
     pageTitle: "🌱 さくらもちガーデン",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "google",
-      tagId: "G-Y0WNHNZ0TX",
-    },
     locale: "ja-JP",
     baseUrl: "garden.skrm.ch",
     ignorePatterns: ["private", "templates", ".obsidian"],
